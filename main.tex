@@ -1,0 +1,37 @@
+\documentclass[a4paper,12pt]{book}
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage[backend=biber]{biblatex}
+\usepackage{fullpage}
+\usepackage{amsmath,amssymb,enumitem}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{tikz}
+\usetikzlibrary{shapes,arrows}
+
+% Eliminamos los sangrados
+\setlength{\parindent}{0cm}
+% Asignamos el archivo referencias a la bibliografia
+\bibliography{referencias}
+
+\begin{document}
+
+\author{Raul Marusca}
+\title{Tabla de Integrales y Derivadas}
+\date
+
+\frontmatter
+\maketitle
+\tableofcontents
+
+\mainmatter
+\include{./derivadas}
+\include{./integralesIndefinidas}
+\include{./integralesDefinidas}
+\include{./apendice}
+
+
+\backmatter
+\printbibliography
+
+\end{document}

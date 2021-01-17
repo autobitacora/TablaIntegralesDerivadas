@@ -1,0 +1,8 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\babel@toc {spanish}{}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {1}Derivadas}{1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.1}Definici\'on de derivada}{1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.2}Generalidades}{1}%

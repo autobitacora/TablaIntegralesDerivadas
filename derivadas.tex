@@ -1,0 +1,57 @@
+\chapter{Derivadas}
+\section{Definici\'on de derivada}
+La derivada de una funci\'on de $x$ respecto de la variable $x$, si existe,  es igual al limite del cociente incremental. El cociente incremental se determina evaluando el valor de la funcion en un punto mas un diferencial y restando el valor que toma la funci\'on en ese punto.
+%\begin{figure}[!h]
+%	\centering
+%\begin{tikzpicture}[line cap=round,line join=round,>=stealth',x=1.0cm,y=1.0cm,domain=-0.5:2.25]
+%	\draw[->,color=black] (-1,0) -- (4,0);
+%	\foreach \x in {1,2,3}
+%	\draw[shift={(\x,0)},color=black] (0pt,2pt) -- (0pt,-2pt) node[below] {\footnotesize $\x$};
+%	\draw[color=black] (4,0) node [right] { $x$};
+%	\draw[->,color=black] (0,-1) -- (0,5);
+%	\foreach \y in {1,2,3,4}
+%	\draw[shift={(0,\y)},color=black] (2pt,0pt) -- (-2pt,0pt) node[left] {\footnotesize $\y$};
+%	\draw[color=black] (0,5) node [above] { $y$};
+%	\draw[color=red,<->] plot[id=quad] function{x*x} node[right] {$f(x) =x^2$};
+%	\fill[black] (0.5,0.25) circle (1.25pt);
+%	\fill[black] (1.5,2.25) circle (1.25pt);
+%	\draw (0.5,0.25)--(1.5,2.25)--(1.5,0.25)--cycle;
+%	\draw[|-|,yshift=-0.25cm] (0.5,0.25)--(1.5,0.25);
+%	\draw[yshift=-0.25cm](1,0.25) node[fill=white] {dx};
+%	\draw[|-|,xshift=0.25cm] (1.5,0.25)--(1.5,2.25);
+%	\draw[xshift=0.25cm] (1.5,1.25) node [fill=white] {dy};
+%\end{tikzpicture}
+%\end{figure}
+%La pendiente de la recta tangente a la funci\'on en el punto es:
+%\begin{equation*}
+%	m=\frac{dy}{dx}
+%\end{equation*}
+\begin{equation*}
+	\frac{df(x)}{dx}=\lim_{\Delta x \rightarrow 0}\frac{\Delta f(x)}{\Delta x}=\lim_{\Delta x \rightarrow 0}\frac{f(x_0 +\Delta x)-f(x_o)}{\Delta x}
+\end{equation*}
+\section{Generalidades}
+Derivada de una constante
+\begin{equation*}
+	\frac{d}{dx}(c)=0
+\end{equation*}
+Derivada de la constante por la variable
+\begin{equation*}
+	\frac{d}{dx}(cx)=c
+\end{equation*}
+Derivada de la variable a una potencia
+\begin{equation*}
+	\frac{d}{dx}(x^n)=nx^{n-1}
+\end{equation*}
+Derivada de una constante por la variable a una potencia
+\begin{equation*}
+	\frac{d}{dx}(cx^n)=ncx^{n-1}
+\end{equation*}
+Derivada de la suma de funciones de x\\
+($u$, $v$, $w$ son funciones de x)
+\begin{equation*}
+	\frac{d}{dx}(u\pm v\pm w \pm ...)=\frac{du}{dx}\pm\frac{dv}{dx}\pm\frac{dw}{dx}\pm...
+\end{equation*}
+Derivada de la constante por una funcion de x
+\begin{equation*}
+	\frac{d}{dx}(cu)=c\frac{du}{dx}
+\end{equation*}
