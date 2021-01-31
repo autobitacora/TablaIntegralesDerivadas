@@ -1,37 +1,47 @@
-\documentclass[a4paper,12pt]{book}
+\documentclass[a4paper,10pt]{book}
 \usepackage[spanish]{babel}
 \usepackage[utf8]{inputenc}
-\usepackage{graphicx}
-\usepackage[backend=biber]{biblatex}
-\usepackage{fullpage}
+%\usepackage{graphicx}
+%\usepackage[backend=biber]{biblatex}
+%\usepackage{fullpage}
 \usepackage{amsmath,amssymb,enumitem}
-\usepackage[dvipsnames]{xcolor}
-\usepackage{tikz}
-\usetikzlibrary{shapes,arrows}
+%\usepackage[dvipsnames]{xcolor}
+%\usepackage{tikz}
+%\usetikzlibrary{shapes,arrows}
 
 % Eliminamos los sangrados
 \setlength{\parindent}{0cm}
 % Asignamos el archivo referencias a la bibliografia
-\bibliography{referencias}
+%\bibliography{referencias}
+% Declaramos las funciones matematicas que faltan en amsmath
+\DeclareMathOperator{\arcsec}{arcsec}
+\DeclareMathOperator{\arccot}{arccot}
+\DeclareMathOperator{\arccsc}{arccsc}
+\DeclareMathOperator{\csch}{csch}
+\DeclareMathOperator{\argsenh}{argsenh}
+\DeclareMathOperator{\argcosh}{argcosh}
+\DeclareMathOperator{\argtanh}{argtanh}
+\DeclareMathOperator{\argcoth}{argcoth}
+\DeclareMathOperator{\argsech}{argsech}
+\DeclareMathOperator{\argcsch}{argcsch}
 
 \begin{document}
 
 \author{Raul Marusca}
 \title{Tabla de Integrales y Derivadas}
-\date
+\date{}
 
-\frontmatter
+%\frontmatter
 \maketitle
 \tableofcontents
 
-\mainmatter
-\include{./derivadas}
-\include{./integralesIndefinidas}
-\include{./integralesDefinidas}
-\include{./apendice}
+%\mainmatter
+\input{./derivadas}
+\input{./integralesIndefinidas}
+\input{./integralesDefinidas}
+\input{./apendice}
 
-
-\backmatter
-\printbibliography
+%\backmatter
+%\printbibliography
 
 \end{document}
