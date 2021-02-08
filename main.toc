@@ -1,7 +1,12 @@
 \babel@toc {spanish}{}
-\contentsline {chapter}{\numberline {1}Derivadas}{5}%
-\contentsline {section}{\numberline {1.1}Definición de derivada}{5}%
-\contentsline {section}{\numberline {1.2}Generalidades}{5}%
+\contentsline {chapter}{\numberline {1}Derivadas}{4}%
+\contentsline {section}{\numberline {1.1}Definición de derivada}{4}%
+\contentsline {section}{\numberline {1.2}Generalidades}{4}%
+\contentsline {section}{\numberline {1.3}Derivadas de funciones trigonométricas}{5}%
+\contentsline {section}{\numberline {1.4}Derivadas de funciones trigonométricas inversas}{5}%
+\contentsline {section}{\numberline {1.5}Derivadas de funciones logarítmicas y exponenciales}{6}%
+\contentsline {section}{\numberline {1.6}Derivadas de funciones hiperbólicas}{6}%
+\contentsline {section}{\numberline {1.7}Derivadas de funciones hiperbólicas inversas}{6}%
 \contentsline {chapter}{\numberline {2}Integrales Indefinidas}{7}%
 \contentsline {section}{\numberline {2.1}Propiedades y Generalidades}{8}%
 \contentsline {section}{\numberline {2.2}Algunas soluciones importantes}{8}%
@@ -59,5 +64,5 @@
 \contentsline {section}{\numberline {3.6}Integrales definidas que contienen funciones logarítmicas}{9}%
 \contentsline {section}{\numberline {3.7}Integrales definidas que contienen funciones hiperbólicas}{9}%
 \contentsline {section}{\numberline {3.8}Integrales definidas que contienen funciones racionales e irracionales}{9}%
-\contentsline {chapter}{\numberline {4}Apéndice}{11}%
-\contentsline {section}{\numberline {4.1}Constantes notables}{11}%
+\contentsline {chapter}{\numberline {4}Apéndice}{10}%
+\contentsline {section}{\numberline {4.1}Constantes notables}{10}%
