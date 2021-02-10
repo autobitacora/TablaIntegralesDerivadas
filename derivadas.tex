@@ -165,5 +165,67 @@ Derivada de una función de $x$ elevada a otra función de $x$
 	\frac{d}{dx}u^v=\frac{d}{dx}e^{v \ln u}=e^{v \ln u} \frac{d}{dx}(v \ln u)=vu^{v^{-1}}\frac{du}{dx}+u^v \ln u \frac{dv}{dx} 
 \end{equation}
 \section{Derivadas de funciones hiperbólicas}
-
+Derivada del seno hiperbólico
+\begin{equation}
+	\frac{d}{dx}\sinh u = \cosh u \frac{du}{dx} 
+\end{equation}
+Derivada del coseno hiperbólico
+\begin{equation}
+	\frac{d}{dx}\cosh u = -\sinh u \frac{du}{dx} 
+\end{equation}
+Derivada de la tangente hiperbólica
+\begin{equation}
+	\frac{d}{dx}\tanh u = \sech^2 u \frac{du}{dx}
+\end{equation}
+Derivada de la cotangente hiperbólica
+\begin{equation}
+	\frac{d}{dx}\coth u = -\csch^2 u \frac{du}{dx}
+\end{equation}
+Derivada de la secante hiperbólica
+\begin{equation}
+	\frac{d}{dx}\sech u = \sech u \tanh u \frac{du}{dx}
+\end{equation}
+Derivada de la cosecante hiperbólica
+\begin{equation}
+	\frac{d}{dx}\csch u = -\csch u \coth u \frac{du}{dx}
+\end{equation}
 \section{Derivadas de funciones hiperbólicas inversas}
+Derivada del argumento seno hiperbólico 
+\begin{equation}
+	\frac{d}{du} \argsinh u = \frac{1}{\sqrt{u^2 + 1}}\frac{du}{dx}
+\end{equation}
+Derivada del argumento coseno hiperbólico
+\begin{equation}
+	\frac{d}{du} \argcosh u = \pm \frac{1}{\sqrt{u^2 - 1}}\frac{du}{dx}\qquad\left\{
+	\begin{array}{ll}
+		+\; Si  & \argcosh u > 0, u > 1  \\
+		-\; Si  & \argcosh u < 0, u > 1
+	\end{array}
+	\right.
+\end{equation}
+Derivada del argumento tangente hiperbólico
+\begin{equation}
+	\frac{d}{du} \argtanh u = \frac{1}{1-u^2}\frac{du}{dx}\qquad -1 < u < 1
+\end{equation}
+Derivada del argumento cotangente hiperbólico
+\begin{equation}
+	\frac{d}{du} \argcoth u = \frac{1}{1-u^2}\frac{du}{dx}\qquad u < -1 \cup u > 1
+\end{equation}
+Derivada del  argumento secante hiperbólico
+\begin{equation}
+	\frac{d}{du} \argsech u = \mp \frac{1}{u\sqrt{1-u^2}}\frac{du}{dx}\qquad\left\{
+	\begin{array}{ll}
+		-\; Si  &  \argsech u  > 0\; y\; 0 < u < 1  \\
+		+\; Si  &  \argsech u  < 0\; y\; 0 < u < 1
+	\end{array}
+	\right.
+\end{equation}
+Derivada del argumento cosecante hiperbólico
+\begin{equation}
+	\frac{d}{du} \argcsch u = \mp \frac{1}{u\sqrt{1+u^2}}\frac{du}{dx}\qquad\left\{
+	\begin{array}{ll}
+		-\; Si  & u>0  \\
+		+\; Si  & u<0
+	\end{array}
+	\right.
+\end{equation}
